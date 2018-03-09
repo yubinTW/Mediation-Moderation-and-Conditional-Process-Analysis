@@ -179,6 +179,12 @@ content{
 	box-sizing:border-box;
 	padding-left: 40px;
 }
+.sch img{
+		min-height: 100%;
+        width: 45%;
+        margin-bottom: 40px;
+        margin:auto;
+}
 
 /*section3*/
 #s3{

@@ -3,7 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<title>第二屆社會科學創新研究工作坊</title>
-	<link rel="stylesheet" type="text/css" href="0.css"></link>
+	<link rel="stylesheet" type="text/css" href="0.css">
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+	
+	//Click event to scroll to top
+	$('#a1').click(function(){
+		$('html, body').animate({scrollTop : 10},600);
+		return false;
+	});
+	
+	$('#a2').click(function(){
+		$('html, body').animate({scrollTop : 600},600);
+		return false;
+	});
+	
+	$('#a3').click(function(){
+		$('html, body').animate({scrollTop : 1880},600);
+		return false;
+	});
+	
+	$('#a4').click(function(){
+		$('html, body').animate({scrollTop : 2600},600);
+		return false;
+	});
+	
+});
+</script>
+
 </head>
 <body>
 	<div class="bg">
@@ -75,8 +103,10 @@
 			<p>工作坊參與者需具備多元迴歸及統計推論的基礎知識，並熟悉SPSS統計軟體。</p>
 			<h3>計算工具</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem placeat, quis blanditiis quisquam perferendis hic totam maiores facilis dolor?</p>
-			<h3>工作坊時間表</h3>
-		</content>
+			</content>
+			<div class="sch">
+				<img src="UI/workshopschedule-01.png" alt="schedule" />
+			</div>
 	</section>
 	<!-- Register -->
 	<section id="s3">
