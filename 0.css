@@ -39,14 +39,15 @@ header{
 }
 
 #logo{
-	float:left;
 	display: inline-block;
 	box-sizing:border-box;
 }
 
 #lang {
-	float:right;
-	padding-right: 20px;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	
 }
 
 #lang p{
@@ -75,7 +76,7 @@ header{
 
 nav{
 	width:100%;
-	margin:60px 0 20px 0; 
+	margin:100px 0 20px 0; 
 	box-sizing:border-box;
 	text-align:right;
 }
@@ -101,23 +102,29 @@ nav li a{
 	transition: 0.4s;
 }
 
-nav li a:hover{
+nav li a:hover {
 	color:#892929;
 	border-bottom: 2px  solid #892929 ;
 }
+#navbar-spy {
+	background-color: #dcdddd;
+}
+#myNavbar {
+	margin-bottom: 5px;
+}
 /*背景圖片*/
 .bg {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-    	z-index: -999;
-    }
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -999;
+}
 .bg img {
-        min-height: 100%;
-        width: 100%;
-		}
+	min-height: 100%;
+	width: 100%;
+}
 
 /*section1*/
 #s1{
