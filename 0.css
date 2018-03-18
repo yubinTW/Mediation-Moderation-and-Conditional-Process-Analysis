@@ -7,23 +7,26 @@ body{
 h1{
 	width: 100%;
 	color:#514f4c;
-	border-bottom: 1.5px  solid #514f4c ; 
+	border-bottom: 1.5px  solid #dcdddd; 
 	font-size: 25px;
+	font-weight:bold;
 	padding:0 0 10px 20px; 
 }
 
 p, li{
 	color:#514f4c;
 	font-size: 16px;
+	line-height: 25px;
 }
 
 h2{
 	color:#892929;
-	font-size: 22px;
+	font-size: 20px;
+	font-weight:bold;
 }
 h3{
-	color:#892929;
-	font-size: 20px;
+	color:#514f4c;
+	font-size: 16px;
 }
 
 /*header*/
@@ -31,7 +34,8 @@ header{
 	position:fixed;
 	top:0;
 	width:100%;
-	font-size:18px;
+	font-size:20px;
+	font-weight:bold;
 	min-width:120px;
 	box-sizing:border-box;
 	background: #dcdddd;
@@ -76,7 +80,7 @@ header{
 
 nav{
 	width:100%;
-	margin:90px 0 10px 0; 
+	margin:100px 0 10px 0; 
 	box-sizing:border-box;
 	text-align:right;
 }
@@ -106,7 +110,7 @@ nav li a:hover {
 	border-bottom: 2px  solid #892929 ;
 }
 
-#a1>a, #a2>a, #a3>a, #a4>a{
+#a1>a, #a2>a, #a3>a, #a4>a, #a5>a{
 	padding-bottom: 5px;
 }
 
@@ -132,54 +136,72 @@ nav li a:hover {
 
 /*section1*/
 #s1{
-	width:80%;
+	width:75%;
 	min-width:980px;
 	margin:auto;
-	margin-top:140px;
+	margin-top:180px;
 }
 
 article{
+	width:100%;
+	box-sizing:border-box;
+	display:inline-block;
+}
+
+.textbox{
 	float:left;
-	width:100%;
+	width:60%;
 	box-sizing:border-box;
-}
-
-article .date{
-	float: left;
-	position:relative;
-	width:25%;
-	height:330px;
-	padding: 0 40px;
-	box-sizing:border-box;
-	line-height: 24px;
-}
-
-article .date h2{
-	font-size: 30px;
-	color:#514f4c;
-	margin: 0;
-}
-article .date p{
-	font-size: 16px;
-	color:#514f4c;
-}
-
-article .textbox1{
-	float: left;
-	width:75%;
-	box-sizing:border-box;
-	padding:0px 20px;
-	}
-article .textbox2{
-	float: left;
-	width:100%;
-	box-sizing:border-box;
-	padding-left:40px;
+	padding-left: 40px;
 	margin-bottom: 40px;
-	}
+}
+
+.date img{
+	float:left;
+	width:30%;
+	box-sizing:border-box;
+	margin:20px 0 0px 40px;
+}
+
+.textbox1{
+	width:90%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin: auto;
+	margin-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px  solid #892929 ;
+}
+
+.book img{
+	float:left;
+	width:30%;
+	box-sizing:border-box;
+	margin:20px 0 60px 40px;
+}
+
+.book a{
+	text-decoration: none;
+}
+
+.resource img{
+	float:left;
+	width:60%;
+	box-sizing:border-box;
+	margin:20px 0 60px 40px;
+}
+
+.textbox2{
+	float:left;
+	width:60%;
+	box-sizing:border-box;
+	margin: 40px 0 40px 40px;
+}
+
 /*section2*/
 #s2{
-	width:80%;
+	width:75%;
 	min-width:980px;
 	margin:auto;
 }
@@ -191,30 +213,113 @@ content{
 	padding-left: 40px;
 	margin-bottom: 40px;
 }
-.sch img{
-		min-height: 100%;
-        width: 45%;
-        margin-bottom: 40px;
-        margin-left:auto;
-        margin-right: auto;
-        box-sizing:border-box;
-        display: block;
+
+.textbox3{
+	float:left;
+	width:40%;
+	box-sizing:border-box;
+	margin: 10px 0 0px 40px;
+}
+
+.lecturer img{
+	float:left;
+	width:35%;
+	box-sizing:border-box;
+	margin:40px 0 0px 40px;
+}
+.mail2{
+	float:left;
+	width: 60%;
+	padding-left: 40px;
+}
+.mail{
+	height: 40px;
+	border: 1px  solid #892929;
+	margin: 0px 10px 10px 0px;
+	font-style:italic;
+	box-sizing:border-box;	
+	display: inline-block;
+}
+
+.mail img{
+	height: 30px;
+	box-sizing:border-box;	
+	display: inline-block;
+	margin:5px 0;
+}
+
+.mail p{
+	font-size: 	14px;
+	box-sizing:border-box;
+	display: inline-block;
+	margin: 5px 10px;
+	color:#892929;
 }
 
 /*section3*/
 #s3{
-	width:80%;
+	width:75%;
 	min-width:980px;
 	margin:auto;
+}
+
+#s3 img{
+	width:50%;
+	margin: auto;
+	box-sizing:border-box;
+	display: inline-block;
 }
 
 /*section4*/
 #s4{
-	width:80%;
+	width:75%;
 	min-width:980px;
 	margin:auto;
 }
 
+.read {
+	margin:auto;
+	margin-top: 50px;
+	width:150px;
+	border: 1px  solid #892929;
+	padding: 10px;
+}
+
+.read p{
+	color:#892929;
+	font-style:italic;
+	border-bottom: 1px  solid #892929;
+}
+
+.read a{
+	text-decoration: none;
+	text-align:center;
+}
+
+/*section5*/
+#s5{
+	width:75%;
+	min-width:980px;
+	margin:auto;
+}
+
+/*section6*/
+#s6{
+	width:75%;
+	min-width:980px;
+	margin:auto;
+}
+
+.textbox4{
+	width:45%;
+	box-sizing:border-box;
+	display: inline-block;
+	margin: 10px 0 60px 40px;
+}
+
+.textbox4 img{
+	height: 80px;
+}
 /* footer */
 footer{
 	clear:both;
