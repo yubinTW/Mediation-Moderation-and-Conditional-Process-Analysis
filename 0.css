@@ -266,8 +266,10 @@ content{
 #s3 img{
 	width:50%;
 	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 60px;
 	box-sizing:border-box;
-	display: inline-block;
+	display: block;
 }
 
 /*section4*/
@@ -320,6 +322,25 @@ content{
 .textbox4 img{
 	height: 80px;
 }
+/* register back */
+.back {
+	margin-top: 50px;
+	width:100px;
+	border: 1px  solid #892929;
+	padding: 10px;
+}
+
+.back p{
+	color:#892929;
+	font-style:italic;
+	border-bottom: 1px  solid #892929;
+}
+
+.back a{
+	text-decoration: none;
+	text-align:center;
+}
+
 /* footer */
 footer{
 	clear:both;
