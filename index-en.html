@@ -1,37 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
 	<meta charset="UTF-8">
 	<title>第二屆社會科學創新研究工作坊</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="0.css">
 	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 	<script type="text/javascript">
 	$(document).ready(function(){
 	
 	//Click event to scroll to top
 	$('#a1').click(function(){
-		$('html, body').animate({scrollTop : 40},600);
+		$('html, body').animate({scrollTop : 0},600);
 		return false;
 	});
 
 	$('#logo').click(function(){
-		$('html, body').animate({scrollTop : 40},600);
+		$('html, body').animate({scrollTop : 0},600);
 		return false;
 	});
 	
 	$('#a2').click(function(){
-		$('html, body').animate({scrollTop : 670},600);
+		$('html, body').animate({scrollTop : 1900},600);
 		return false;
 	});
 	
 	$('#a3').click(function(){
-		$('html, body').animate({scrollTop : 1880},600);
+		$('html, body').animate({scrollTop : 2560},600);
 		return false;
 	});
 	
 	$('#a4').click(function(){
-		$('html, body').animate({scrollTop : 2600},600);
+		$('html, body').animate({scrollTop : 3420},600);
+		return false;
+	});
+
+	$('#a5').click(function(){
+		$('html, body').animate({scrollTop : 3420},600);
 		return false;
 	});
 	
@@ -51,7 +58,7 @@
 				<a href="index-en.html"><p>En</p></a>
 			</div>
 		</div>
-        		<nav class="nav navbar-default navbar-fixed-top" id="navbar-spy">
+		<nav class="nav navbar-default navbar-fixed-top" id="navbar-spy">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -63,9 +70,10 @@
 				<div class="collapse navbar-collapse navbar-right" id="myNavbar">
 					<ul class="nav navbar-nav">
 						<li id="a1"><a href="#s1">Home</a></li>
-						<li id="a2"><a href="#s2">Workshop</a></li>
-						<li id="a3"><a href="#s3">Register</a></li>
-						<li id="a4"><a href="#s4">Transportation</a></li>
+						<li id="a2"><a href="#s2">Instructor</a></li>
+						<li id="a3"><a href="#s3">Schedule</a></li>
+						<li id="a4"><a href="#s4">Register</a></li>
+						<li id="a5"><a href="#s5">Transportation</a></li>
 					</ul>
 				</div>
 			</div>
@@ -73,68 +81,117 @@
     </header>
     <!-- About -->
 	<section id="s1">
+		<h1>Home</h1>
 		<article>
-			<h1>Home</h1>
-        	<div class="date">
-            	<p>Sat.</p>
-            	<h2>5. 19</h2>
-            	<p>Sun.</p>
-            	<h2>5. 20</h2>
-				<p>Place<br>
-				Social Sciences Information Center, National Chengchi University
-            	</p>
+			<div class="textbox">
+				<h2>Description</h2>
+            	<p>Statistical mediation and moderation analyses are among the most widely used, but often confused, data analysis techniques in social science. Mediation analysis is used to test hypotheses about various intervening mechanisms by which causal effects operate. Moderation analysis is used to examine and explore questions about the contingencies or conditions of an effect, also called “interaction.” Increasingly, moderation and mediation are being integrated analytically in the form of what has become known as “conditional process analysis,” used when the goal is to understand the contingencies or conditions under which mechanisms operate. An understanding of the fundamentals of mediation and moderation analysis is in the job description of almost any empirical scholar. In this course, you will learn about the underlying principles and the practical applications of these methods using ordinary least squares (OLS) regression analysis and the PROCESS macro (version 3.0) for SPSS invented by the course instructor.</p>
             </div>
-			<div class="texbox1">
-				<h2>Instructor</h2>
-				<p>Andrew F. Hayes, Ph.D.<br>
-				Professor of Psychology<br>
+            <div class="date">
+            	<img src="UI/time.png" alt="time">
+            </div>
+       	</article>
+			<div class="textbox1">
+				<h2>Workshop objectives</h2>
+				<ul>
+					<li>be able to statistically partition one variable’s effect on another into its primary pathways of influence, direct and indirect</li>
+					<li>understand historical and modern approaches to inference about indirect effects in causal models</li>
+					<li>know how test competing theories of mechanisms statistically through the comparison of indirect effects in models with multiple mediators</li>
+					<li>acquire an understanding of how to build flexibility into a regression model that allows a variable’s effect to be a function of another variable in a model</li>
+					<li>have the ability to visualize and probe interactions in regression models</li>
+					<li>have learned how to integrate models involving moderation and mediation into a conditional process model</li>
+					<li>have learned how to estimate the contingencies of mechanisms through the computation and inference about conditional indirect effects</li>
+					<li>know how to determine whether a mechanism is dependent on a moderator variable</li>
+					<li>be able to apply the methods discussed in this course using readily-available statistical software</li>
+				</ul>
+			</div>
+			<div class="textbox1">
+				<h2>Topics covered</h2>
+					<ul>
+						<li>Path analysis: Direct, indirect, and total effects in mediation models</li>
+						<li>Estimation and inference about indirect effects in single mediator models</li>
+						<li>Models with multiple mediators</li>
+						<li>Estimation of moderation and conditional effects</li>
+						<li>Probing and visualizing interactions</li>
+						<li>Conditional process analysis (“moderated mediation”)</li>
+						<li>Quantification of and inference about conditional indirect effects</li>
+						<li>Testing a moderated mediation hypothesis and comparing conditional indirect effects</li>
+					</ul>
+				<p>We focus primarily on research designs that are experimental or cross-sectional in nature with continuous outcomes. We do not cover complex models involving dichotomous outcomes, latent variables, repeated measures, nested data (i.e., multilevel models), or the use of structural equation modeling.</p>
+			</div>
+			<div class="textbox1">
+				<h2>Recommended book</h2>
+				<div class="book">
+					<a href="https://www.guilford.com/books/Introduction-to-Mediation-Moderation-and-Conditional-Process-Analysis/Andrew-Hayes/9781462534654" target="_blank"><img src="UI/bookcover.jpg" alt="bookcover"></a>
+				</div>
+				<div class="textbox2">
+					<p>This course is a companion to the instructor’s book below. A copy of the book is not required to benefit from the course, but it could be helpful to reinforce understanding.</p>
+				</div>
+				<div class="resource">
+					<img src="UI/resource.png" alt="resource">
+				</div>
+			</div>
+	</section>
+	<!-- lecturer -->
+	<section id="s2">
+		<h1>Instructor</h1>
+		<content>
+			<div class="lecturer">
+				<img src="UI/picture.png" alt="picture">
+			</div>
+			<div class="textbox3">
+				<h2>Andrew F. Hayes, Ph.D.</h2>
+				<h3>Professor of Psychology
 				The Ohio State University
 				Department of Psychology
-				</p>
+				</h3>
+			</div>
+			<div class="mail2">
+				<div class="mail"><img src="UI/email icon.png" alt="mail">
+					<p>haye.338@osu.edu</p>
+				</div>
+				<div class="mail"><img src="UI/website icon.png" alt="website">
+					<p>http://www.afhayes.com</p>
+				</div>
+				<div class="mail">
+					<p>Computing technology: PROCESS macro</p><p>http://www.processmacro.org</p>
+				</div>
+			</div>
+			<div class="textbox">
 				<h2>Short Biography</h2>
 				<p>Professor Andrew Hayes’s research focuses on linear models, with an emphasis on resampling methods of inference. According to Google Scholar, his work has been cited over 60,000 times by scholars throughout the world in nearly every empirical research area. His methodological work has appeared in Psychological Methods, Multivariate Behavioral Research, Behavior Research Methods, Behaviour Research and Therapy, Psychological Science, Australiasian Marketing Journal, Communication Methods and Measures, Human Communication Research, and Communication Monographs, among others. He is the author of Regression Analysis and Linear Models (2017, The Guilford Press), An Introduction to Mediation, Moderation, and Conditional Process Analysis (2018, The Guilford Press), and Statistical Methods for Communication Science (2005, Routledge).</p>
 			</div>
-			<div class="textbox2">
-				<h3>Description</h3>
-				<p>Statistical mediation and moderation analyses are among the most widely used, but often confused, data analysis techniques in social science. Mediation analysis is used to test hypotheses about various intervening mechanisms by which causal effects operate. Moderation analysis is used to examine and explore questions about the contingencies or conditions of an effect, also called “interaction.” Increasingly, moderation and mediation are being integrated analytically in the form of what has become known as “conditional process analysis,” used when the goal is to understand the contingencies or conditions under which mechanisms operate. An understanding of the fundamentals of mediation and moderation analysis is in the job description of almost any empirical scholar. In this course, you will learn about the underlying principles and the practical applications of these methods using ordinary least squares (OLS) regression analysis and the PROCESS macro (version 3.0) for SPSS invented by the course instructor.</p>
-			</div>
-		</article>
+		</content>
 	</section>
-	<!-- Worshop -->
-	<section id="s2">
-		<h1>Workshop</h1>
-		<content>
-			<h3>Topics covered</h3>
-			<ul>
-				<li>Path analysis: Direct, indirect, and total effects in mediation models.</li>
-				<li>Estimation and inference about indirect effects in single mediator models.</li>
-				<li>Models with multiple mediators.</li>
-				<li>Estimation of moderation and conditional effects.</li>
-				<li>Probing and visualizing interactions.</li>
-				<li>Conditional process analysis (“moderated mediation”)</li>
-				<li>Quantification of and inference about conditional indirect effects.</li>
-				<li>Testing a moderated mediation hypothesis and comparing conditional indirect effects.</li>
-			</ul>
-			<p>We focus primarily on research designs that are experimental or cross-sectional in nature with continuous outcomes. We do not cover complex models involving dichotomous outcomes, latent variables, repeated measures, nested data (i.e., multilevel models), or the use of structural equation modeling.</p>
-			<h3>Recommended book</h3>
-			<p>This course is a companion to the instructor’s book below. A copy of the book is not required to benefit from the course, but it could be helpful to reinforce understanding.<br>
-			Hayes, A. F. (2017). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (2nd ed.). New York, NY: Guilford Press.</p>
-			<h3>Course prerequisites</h3>
-			<p>Participants should have a basic knowledge of the principles and practice of multiple regression and statistical inference. Familiarity with the use of SPSS is assumed.</p>
-			<h3>Computing technology</h3>
-			<p>This is a hands-on course. Computer applications will focus on the use of ordinary least squares regression and the PROCESS macro for SPSS developed by the instructor that makes the analyses described in this workshop much easier than they otherwise would be.</p>
-			</content>
-			<div class="sch">
-				<img src="UI/workshopschedule-01.png" alt="schedule"/>
-			</div>
-	</section>
-	<!-- Register -->
+	<!-- schedule -->
 	<section id="s3">
-			<h1>Register</h1>
+		<h1>Workshop Schedule</h1>
+		<div class="schedule"><img src="UI/workshopschedule-01.png" alt="schedule">	
+		</div>
 	</section>
-	<!-- Transportation -->
+	<!-- register -->
 	<section id="s4">
-			<h1>Transportation</h1>
+		<h1>Register</h1>
+		<div class="read">
+			<a href="register-en.html"><p>Read More</p></a>
+		</div>
+	</section>	
+	<!-- transportation -->
+	<section id="s5">
+		<h1>Transportation</h1>
+	</section>	
+	<section id="s6">
+		<h1>Organized by</h1>
+		<div class="textbox4">
+			<h2>Organizer</h2>
+			<p>Research Center for Humanities and Social Sciences (RCHSS), Nationial Chiao Tung University,<br>Taiwan Institute for Governance and Communications Research (TIGCR), National Chengchi University.</p>
+			<img src="UI/social.png" alt="人社中心">
+		</div>
+		<div class="textbox4">
+			<h2>Co-organizer</h2>
+			<p>Communication and Cognition Lab, Nationial Chiao Tung University</p>
+			<img src="UI/cff073f7-020c-4c16-8bd6-8a66dc95e6f8.png" alt="傳播實驗室">
+		</div>
 	</section>	
 	<footer>
         &copy; 交通大學傳播與認知實驗室. ALL RIGHTS RESERVED.
