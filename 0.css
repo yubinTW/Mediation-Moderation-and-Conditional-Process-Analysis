@@ -341,6 +341,12 @@ content{
 	text-align:center;
 }
 
+iframe{
+	margin:auto;
+	box-sizing:border-box;
+	display: block;
+}
+
 /* footer */
 footer{
 	clear:both;
