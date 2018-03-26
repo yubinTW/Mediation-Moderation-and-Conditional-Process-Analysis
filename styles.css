@@ -93,7 +93,7 @@ nav ul{
 
 nav li{
 	display: inline-block;
-	margin:0px 30px;
+	margin:0px 10px;
 }
 
 nav li a{
@@ -119,6 +119,12 @@ nav li a:hover {
 }
 #myNavbar {
 	margin-bottom: 20px;
+}
+.navbar-nav{
+	margin-top: -50px;
+}
+.navbar-header{
+	margin-top: -50px;
 }
 /*背景圖片*/
 .bg {
@@ -319,6 +325,25 @@ content{
 	margin: 10px 0 60px 40px;
 }
 
+.textbox5{
+	width:45%;
+	height: 300px;
+	box-sizing:border-box;
+	display: block;
+	margin: 10px 0 60px 40px;
+}
+#s5 > .content{
+	display: flex;
+}
+.textbox5 img {
+	width: 300px;
+	height: auto;
+}
+
+.textbox5 h2 {
+	margin-top: 30px;
+}
+
 .textbox4 img{
 	height: 80px;
 }
@@ -354,4 +379,9 @@ footer{
 	color:#514f4c;
 	font-size: 14px;
 	text-align:center;
+}
+
+
+.fancybox-button--share{
+	display: none;
 }
