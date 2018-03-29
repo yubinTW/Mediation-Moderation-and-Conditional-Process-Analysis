@@ -14,38 +14,42 @@
 	<script type="text/javascript">
 	$(document).ready(function(){
 	
-	//Click event to scroll to top
-	$('#a1').click(function(){
-		$('html, body').animate({scrollTop : 0},600);
-		return false;
-	});
+		//Click event to scroll to top
+		$('#a1').click(function(){
+			$('html, body').animate({scrollTop : 0},600);
+			return false;
+		});
 
-	$('#logo').click(function(){
-		$('html, body').animate({scrollTop : 0},600);
-		return false;
-	});
-	
-	$('#a2').click(function(){
-		$('html, body').animate({scrollTop : 1900},600);
-		return false;
-	});
-	
-	$('#a3').click(function(){
-		$('html, body').animate({scrollTop : 2560},600);
-		return false;
-	});
-	
-	$('#a4').click(function(){
-		$('html, body').animate({scrollTop : 3420},600);
-		return false;
-	});
+		$('#logo').click(function(){
+			$('html, body').animate({scrollTop : 0},600);
+			return false;
+		});
+		
+		$('#a2').click(function(){
+			$('html, body').animate({scrollTop : 1950},600);
+			return false;
+		});
+		
+		$('#a3').click(function(){
+			$('html, body').animate({scrollTop : 2680},600);
+			return false;
+		});
+		
+		$('#a4').click(function(){
+			$('html, body').animate({scrollTop : 3440},600);
+			return false;
+		});
 
-	$('#a5').click(function(){
-		$('html, body').animate({scrollTop : 3420},600);
-		return false;
+		$('#a5').click(function(){
+			$('html, body').animate({scrollTop : 3780},600);
+			return false;
+		});
+		$('#a6').click(function(){
+			$('html, body').animate({scrollTop : 9999},600);
+			return false;
+		});
+		$("a#single_image").fancybox();
 	});
-	$("a#single_image").fancybox();
-});
 </script>
 
 </head>
@@ -78,6 +82,7 @@
 						<li id="a3"><a href="#s3">Schedule</a></li>
 						<li id="a4"><a href="#s4">Registration</a></li>
 						<li id="a5"><a href="#s5">Transportation</a></li>
+						<li id="a6"><a href="#s6">About Us</a></li>
 					</ul>
 				</div>
 			</div>
@@ -126,15 +131,19 @@
 			</div>
 			<div class="textbox1">
 				<h2>Recommended book</h2>
+
 				<div class="book">
 					<a href="https://www.guilford.com/books/Introduction-to-Mediation-Moderation-and-Conditional-Process-Analysis/Andrew-Hayes/9781462534654" target="_blank"><img src="images/bookcover.jpg" alt="bookcover"></a>
 				</div>
+				<a href="https://www.guilford.com/books/Introduction-to-Mediation-Moderation-and-Conditional-Process-Analysis/Andrew-Hayes/9781462534654" target="_blank">
+					<div class="resource">
+						<img src="images/resource.png" alt="resource">
+					</div>
+				</a>
 				<div class="textbox2">
 					<p>This course is a companion to the instructor’s book below. A copy of the book is not required to benefit from the course, but it could be helpful to reinforce understanding.</p>
 				</div>
-				<div class="resource">
-					<img src="images/resource.png" alt="resource">
-				</div>
+
 			</div>
 	</section>
 	<!-- lecturer -->
@@ -152,15 +161,21 @@
 				</h3>
 			</div>
 			<div class="mail2">
-				<div class="mail"><img src="images/email icon.png" alt="mail">
-					<p>haye.338@osu.edu</p>
-				</div>
-				<div class="mail"><img src="images/website icon.png" alt="website">
-					<p>http://www.afhayes.com</p>
-				</div>
-				<div class="mail">
-					<p>Computing technology: PROCESS macro</p><p>http://www.processmacro.org</p>
-				</div>
+				<a href="mailto:haye.338@osu.edu">
+					<div class="mail"><img src="images/email icon.png" alt="mail">
+						<p>haye.338@osu.edu</p>
+					</div>
+				</a>
+				<a href="http://www.afhayes.com" target="_blank">
+					<div class="mail"><img src="images/website icon.png" alt="website">
+						<p>http://www.afhayes.com</p>
+					</div>
+				</a>
+				<a href="http://www.processmacro.org" target="_blank">
+					<div class="mail">
+						<p>PROCESS macro</p><p>http://www.processmacro.org</p>
+					</div>
+				</a>
 			</div>
 			<div class="textbox">
 				<h2>Short Biography</h2>
@@ -176,11 +191,15 @@
 	</section>
 	<!-- register -->
 	<section id="s4">
-		<h1>Registration</h1>
-		<div class="read">
-			<a href="register-en.html"><p>Read More</p></a>
+		<h1>Registration and Fees</h1>
+		<div class="textbox6">
+			<h2>Course prerequisites</h2>
+			<p>This is a hands-on course. Computer applications will focus on the use of ordinary least squares regression and the PROCESS macro for SPSS developed by the instructor that makes the analyses described in this workshop much easier than they otherwise would be. Participants should have a basic knowledge of the principles and practice of multiple regression and statistical inference. Familiarity with the use of SPSS is assumed.</p>
 		</div>
-	</section>	
+		<div class="read">
+			<a href="register-en.html"><p>Register</p></a>
+		</div>
+	</section>
 	<!-- transportation -->
 	<section id="s5">
 		<h1>Transportation</h1>
@@ -188,8 +207,8 @@
 			<div class="textbox5">
 				<h2>Visit NCCU</h2>
 				<p>
-						Da-Yong Building 3rd Floor Room 315, Nationial Chengchi University.<br>
-						NO.64,Sec.2,ZhiNan Rd.,Wenshan District,Taipei City 11605,Taiwan
+					Da-Yong Building 3rd Floor Room 315, Nationial Chengchi University.<br>
+					NO.64,Sec.2,ZhiNan Rd.,Wenshan District,Taipei City 11605,Taiwan
 				</p>
 				<div class="read">
 					<a href="http://www.nccu.edu.tw/en/about/traffic" target="_blank"><p>Read More</p></a>
@@ -204,14 +223,28 @@
 		</div>
 	</section>		
 	<section id="s6">
-		<h1>Organizer</h1>
+		<h1>Organizers And Sponsors</h1>
 		<div class="textbox4">
-			<p>Research Center for Humanities and Social Sciences (RCHSS), Nationial Chiao Tung University,<br>Taiwan Institute for Governance and Communications Research (TIGCR), National Chengchi University.</p>
-			
+			<h2>Organizers</h2>
+			<p><img src="images/social_mini.png" alt="人社中心">
+				<a href="http://rchss.nctu.edu.tw/" target="_blank">Research Center for Humanities and Social Sciences (RCHSS)</a>, Nationial Chiao Tung University,<br>
+				<span style="display:inline-block;width:30px;"></span> Taiwan Institute for Governance and Communications Research (TIGCR), National Chengchi University.</p>
+			<h2>Contact Us</h2>
+			<p>
+				<span>Email</span>：
+				<a href="mailto:rchssnctu@gmail.com">
+					rchssnctu@gmail.com
+				</a>
+				<br>
+				<span>Facebook</span>：
+				<a href="https://www.facebook.com/rchss.nctu/" target="_blank">
+					https://www.facebook.com/rchss.nctu/
+				</a>
+			</p>
 		</div>
 	</section>	
 	<footer>
-        &copy; 交通大學傳播與認知實驗室. ALL RIGHTS RESERVED.
+        &copy; Research Center for Humanities and Social Sciences. ALL RIGHTS RESERVED.
 	</footer>
 
 </body>

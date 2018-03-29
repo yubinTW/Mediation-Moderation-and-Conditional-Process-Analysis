@@ -110,7 +110,7 @@ nav li a:hover {
 	border-bottom: 2px  solid #892929 ;
 }
 
-#a1>a, #a2>a, #a3>a, #a4>a, #a5>a{
+#a1>a, #a2>a, #a3>a, #a4>a, #a5>a, #a6>a{
 	padding-bottom: 5px;
 }
 
@@ -180,6 +180,16 @@ article{
 	border-top: 1px  solid #892929 ;
 }
 
+.textbox7 {
+	width:90%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin: auto;
+	margin-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .book img{
 	float:left;
 	width:30%;
@@ -195,14 +205,14 @@ article{
 	float:left;
 	width:60%;
 	box-sizing:border-box;
-	margin:20px 0 60px 40px;
+	margin:20px 0 20px 40px;
 }
 
 .textbox2{
 	float:left;
 	width:60%;
 	box-sizing:border-box;
-	margin: 40px 0 40px 40px;
+	margin: 0px 0px 40px 40px;
 }
 
 /*section2*/
@@ -285,6 +295,10 @@ content{
 	margin:auto;
 }
 
+#s4 > .textbox6 {
+	margin: 10px 0 60px 40px;
+}
+
 .read {
 	margin:auto;
 	margin-top: 50px;
@@ -318,11 +332,26 @@ content{
 	margin:auto;
 }
 
+#s6 a, #s6 a:visited, #s6 a:link, #s6 a:hover, #s6 a:active  {
+	text-decoration: none;
+	color: inherit;
+}
+
+#s6 .textbox4  span {
+	width: 70px;
+	display: inline-block;
+}
+
 .textbox4{
-	width:45%;
+	width:90%;
 	box-sizing:border-box;
 	display: inline-block;
 	margin: 10px 0 60px 40px;
+}
+
+.textbox4 img {
+	width: 30px;
+	display: inline-block;
 }
 
 .textbox5{
@@ -344,9 +373,6 @@ content{
 	margin-top: 30px;
 }
 
-.textbox4 img{
-	height: 80px;
-}
 /* register back */
 .back {
 	margin-top: 50px;

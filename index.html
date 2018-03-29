@@ -14,40 +14,45 @@
 	<script type="text/javascript">
 	$(document).ready(function(){
 	
-	//Click event to scroll to top
-	$('#a1').click(function(){
-		$('html, body').animate({scrollTop : 0},600);
-		return false;
-	});
+		//Click event to scroll to top
+		$('#a1').click(function(){
+			$('html, body').animate({scrollTop : 0},600);
+			return false;
+		});
 
-	$('#logo').click(function(){
-		$('html, body').animate({scrollTop : 0},600);
-		return false;
-	});
-	
-	$('#a2').click(function(){
-		$('html, body').animate({scrollTop : 1700},600);
-		return false;
-	});
-	
-	$('#a3').click(function(){
-		$('html, body').animate({scrollTop : 2340},600);
-		return false;
-	});
-	
-	$('#a4').click(function(){
-		$('html, body').animate({scrollTop : 3180},600);
-		return false;
-	});
+		$('#logo').click(function(){
+			$('html, body').animate({scrollTop : 0},600);
+			return false;
+		});
+		
+		$('#a2').click(function(){
+			$('html, body').animate({scrollTop : 1700},600);
+			return false;
+		});
+		
+		$('#a3').click(function(){
+			$('html, body').animate({scrollTop : 2360},600);
+			return false;
+		});
+		
+		$('#a4').click(function(){
+			$('html, body').animate({scrollTop : 3150},600);
+			return false;
+		});
 
-	$('#a5').click(function(){
-		$('html, body').animate({scrollTop : 3180},600);
-		return false;
-	});
+		$('#a5').click(function(){
+			$('html, body').animate({scrollTop : 3420},600);
+			return false;
+		});
 
-	$("a#single_image").fancybox();
+		$('#a6').click(function(){
+			$('html, body').animate({scrollTop : 9999},600);
+			return false;
+		});
+
+		$("a#single_image").fancybox();
 	
-});
+	});
 </script>
 
 </head>
@@ -80,6 +85,7 @@
 						<li id="a3"><a href="#s3">時間表</a></li>
 						<li id="a4"><a href="#s4">報名與費用</a></li>
 						<li id="a5"><a href="#s5">交通</a></li>
+						<li id="a6"><a href="#s6">關於我們</a></li>
 					</ul>
 				</div>
 			</div>
@@ -130,12 +136,15 @@
 				<div class="book">
 					<a href="https://www.guilford.com/books/Introduction-to-Mediation-Moderation-and-Conditional-Process-Analysis/Andrew-Hayes/9781462534654" target="_blank"><img src="images/bookcover.jpg" alt="bookcover"></a>
 				</div>
+				<a href="https://www.guilford.com/books/Introduction-to-Mediation-Moderation-and-Conditional-Process-Analysis/Andrew-Hayes/9781462534654" target="_blank">
+					<div class="resource">
+						<img src="images/resource.png" alt="resource">
+					</div>
+				</a>
 				<div class="textbox2">
 					<p>這次的工作坊可以與講師以下的著作搭配。是否閱讀這本書籍不會影響對工作坊內容的吸收，但可以增進瞭解。</p>
 				</div>
-				<div class="resource">
-					<img src="images/resource.png" alt="resource">
-				</div>
+				
 			</div>
 	</section>
 	<!-- lecturer -->
@@ -150,15 +159,21 @@
 				<h3>俄亥俄州立大學心理學系教授</h3>
 			</div>
 			<div class="mail2">
-				<div class="mail"><img src="images/email icon.png" alt="mail">
-					<p>haye.338@osu.edu</p>
-				</div>
-				<div class="mail"><img src="images/website icon.png" alt="website">
-					<p>http://www.afhayes.com</p>
-				</div>
-				<div class="mail">
-					<p>統計工具：PROCESS巨集</p><p>http://www.processmacro.org</p>
-				</div>
+				<a href="mailto:haye.338@osu.edu">
+					<div class="mail"><img src="images/email icon.png" alt="mail">
+						<p>haye.338@osu.edu</p>
+					</div>
+				</a>
+				<a href="http://www.afhayes.com" target="_blank">
+					<div class="mail"><img src="images/website icon.png" alt="website">
+						<p>http://www.afhayes.com</p>
+					</div>
+				</a>
+				<a href="http://www.processmacro.org" target="_blank">
+					<div class="mail">
+						<p>PROCESS巨集</p><p>http://www.processmacro.org</p>
+					</div>
+				</a>
 			</div>
 			<div class="textbox">
 				<h2>講師簡介</h2>
@@ -175,8 +190,12 @@
 	<!-- register -->
 	<section id="s4">
 		<h1>報名與費用</h1>
+		<div class="textbox6">
+			<h2>先備知識</h2>
+			<p>這是一門將理論與分析結合的實際上機操作課程。電腦應用針對普通最小平方迴歸及講師開發的PROCESS巨集（SPSS版），使得進行中介、調節、及條件過程分析變得非常容易。工作坊參與者需具備多元迴歸及統計推論的基礎知識，並熟悉SPSS統計軟體。</p>
+		</div>
 		<div class="read">
-			<a href="register.html"><p>Read More</p></a>
+			<a href="register.html"><p>線上報名</p></a>
 		</div>
 	</section>	
 	<!-- transportation -->
@@ -206,17 +225,31 @@
 		<h1>主辦與協辦單位</h1>
 		<div class="textbox4">
 			<h2>主辦單位</h2>
-			<p>交通大學人文與社會科學研究中心、政治大學臺灣政經傳播研究中心</p>
-			<img src="images/social.png" alt="人社中心">
+			
+			<p>
+				<img src="images/social_mini.png" alt="人社中心">
+				<a href="http://rchss.nctu.edu.tw/" target="_blank">
+					交通大學人文與社會科學研究中心
+				</a>
+					、政治大學臺灣政經傳播研究中心
+			</p>
+			<h2>聯絡我們</h2>
+			<p>
+				<span>電子郵件</span>：
+				<a href="mailto:rchssnctu@gmail.com">
+					rchssnctu@gmail.com
+				</a>
+				<br>
+				<span>臉書</span>：
+				<a href="https://www.facebook.com/rchss.nctu/" target="_blank">
+					https://www.facebook.com/rchss.nctu/
+				</a>
+			</p>
 		</div>
-		<div class="textbox4">
-			<h2>協辦單位</h2>
-			<p>交通大學傳播與認知實驗室</p>
-			<img src="images/cff073f7-020c-4c16-8bd6-8a66dc95e6f8.png" alt="傳播實驗室">
-		</div>
+		
 	</section>	
 	<footer>
-        &copy; 交通大學傳播與認知實驗室. ALL RIGHTS RESERVED.
+        &copy; 交通大學人文與社會科學研究中心. ALL RIGHTS RESERVED.
 	</footer>
 
 </body>
