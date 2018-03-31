@@ -23,29 +23,15 @@
 
 	<script type="text/javascript">
 	$(document).ready(function(){
-
+		
+		const Y_OFFSET = 150;
 		var url      = window.location.href;
 		if(url.includes("#")){
 			r = url.split("#")[1];
-			console.log(r);
-			switch(r){
-				case 's2':
-					$('html, body').animate({scrollTop : 1700},600);
-					break;
-				case 's3':
-					$('html, body').animate({scrollTop : 2360},600);
-					break;
-				case 's4':
-					$('html, body').animate({scrollTop : 3150},600);
-					break;
-				case 's5':
-					$('html, body').animate({scrollTop : 3420},600);
-					break;
-				case 's6':
-					$('html, body').animate({scrollTop : 9999},600);
-					break;
-			}
+			$('html, body').animate({scrollTop : $('#'+r).offset().top-Y_OFFSET},600);
+			
 		}
+
 	
 		//Click event to scroll to top
 		$('#a1').click(function(){
@@ -59,22 +45,22 @@
 		});
 		
 		$('#a2').click(function(){
-			$('html, body').animate({scrollTop : 1700},600);
+			$('html, body').animate({scrollTop : $('#s2').offset().top-Y_OFFSET},600);
 			return false;
 		});
 		
 		$('#a3').click(function(){
-			$('html, body').animate({scrollTop : 2360},600);
+			$('html, body').animate({scrollTop : $('#s3').offset().top-Y_OFFSET},600);
 			return false;
 		});
 		
 		$('#a4').click(function(){
-			$('html, body').animate({scrollTop : 3150},600);
+			$('html, body').animate({scrollTop : $('#s4').offset().top-Y_OFFSET},600);
 			return false;
 		});
 
 		$('#a5').click(function(){
-			$('html, body').animate({scrollTop : 3420},600);
+			$('html, body').animate({scrollTop : $('#s5').offset().top-Y_OFFSET},600);
 			return false;
 		});
 
@@ -125,7 +111,7 @@
 		</nav>
     </header>
     <!-- About -->
-	<section id="s1">
+	<div id="s1">
 		<article>
 			<div class="textbox">
 				<h2>簡介</h2>
@@ -179,11 +165,11 @@
 				</div>
 				
 			</div>
-	</section>
+		</div>
 	<!-- lecturer -->
-	<section id="s2">
+	<div id="s2">
 		<h1>講師</h1>
-		<content>
+		<div class="content">
 			<div class="lecturer">
 				<img src="images/picture.png" alt="picture">
 			</div>
@@ -212,16 +198,18 @@
 				<h2>講師簡介</h2>
 				<p>Andrew Hayes教授是中介與調節分析領域最頂尖的學者之一。他的研究專注在線性模式，特別是重抽樣推論。根據Google Scholar，他的研究已經被全球跨領域的學者引用超過六萬次。他在方法方面的期刊論文，出版在Psychological Methods、Multivariate Behavioral Research、Behavior Research Methods、Behaviour Research and Therapy、Psychological Science、Australiasian Marketing Journal、Communication Methods and Measures、Human Communication Research、Communication Monographs等期刊。他並出版Regression Analysis and Linear Models（2017）、An Introduction to Mediation, Moderation, and Conditional Process Analysis（2018）、Statistical Methods for Communication Science（2005）等專書。</p>
 			</div>
-		</content>
-	</section>
-	<!-- schedule -->
-	<section id="s3">
-		<h1>時間表</h1>
-		<div class="schedule"><img src="images/schedule.png" alt="schedule">	
 		</div>
-	</section>
+	</div>
+	<!-- schedule -->
+	<div id="s3">
+		<h1>時間表</h1>
+		
+		<div class="schedule">
+			<img src="images/schedule.png" alt="schedule">	
+		</div>
+	</div>
 	<!-- register -->
-	<section id="s4">
+	<div id="s4">
 		<h1>報名與費用</h1>
 		<div class="textbox6">
 			<h2>先備知識</h2>
@@ -230,9 +218,9 @@
 			<div class="read link" onclick="location.href='register.html'">
 				<p>線上報名</p>
 			</div>		
-	</section>	
+		</div>	
 	<!-- transportation -->
-	<section id="s5">
+	<div id="s5">
 		<h1>交通</h1>
 		<div class="content">
 			<div class="textbox5">
@@ -253,8 +241,8 @@
 			</div>
 		</div>
 		
-	</section>	
-	<section id="s6">
+	</div>	
+	<div id="s6">
 		<h1>主辦與協辦單位</h1>
 		<div class="textbox4">
 			<h2>主辦單位</h2>
@@ -280,7 +268,7 @@
 			</p>
 		</div>
 		
-	</section>	
+	</div>	
 	<footer>
         &copy; 交通大學人文與社會科學研究中心. ALL RIGHTS RESERVED. 
 	</footer>

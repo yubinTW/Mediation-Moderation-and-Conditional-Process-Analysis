@@ -220,9 +220,10 @@ article{
 	width:75%;
 	min-width:980px;
 	margin:auto;
+	display: flow-root;
 }
 
-content{
+.content{
 	float:left;
 	width:100%;
 	box-sizing:border-box;
