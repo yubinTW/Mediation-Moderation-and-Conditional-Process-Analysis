@@ -316,6 +316,7 @@ content{
 #s4 a, #s5 a {
 	text-decoration: none;
 	text-align:center;
+	display: inline;
 }
 
 /*section5*/
@@ -410,4 +411,9 @@ footer{
 
 .fancybox-button--share{
 	display: none;
+}
+
+.link {
+	cursor: pointer;
+	text-align: center;
 }
