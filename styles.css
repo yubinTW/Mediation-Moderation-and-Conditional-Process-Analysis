@@ -313,7 +313,7 @@ content{
 	border-bottom: 1px  solid #892929;
 }
 
-.read a{
+#s4 a, #s5 a {
 	text-decoration: none;
 	text-align:center;
 }
@@ -387,7 +387,7 @@ content{
 	border-bottom: 1px  solid #892929;
 }
 
-.back a{
+.textbox7 a  {
 	text-decoration: none;
 	text-align:center;
 }
