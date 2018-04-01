@@ -24,11 +24,14 @@
 	<script type="text/javascript">
 	$(document).ready(function(){
 		
-		const Y_OFFSET = 150;
+		const Y_OFFSET = 130;
 		var url      = window.location.href;
 		if(url.includes("#")){
 			r = url.split("#")[1];
-			$('html, body').animate({scrollTop : $('#'+r).offset().top-Y_OFFSET},600);
+			if(r==='s2')
+				$('html, body').animate({scrollTop : $('#'+r).offset().top-Y_OFFSET+20},600);
+			else	
+				$('html, body').animate({scrollTop : $('#'+r).offset().top-Y_OFFSET},600);
 			
 		}
 
@@ -45,7 +48,7 @@
 		});
 		
 		$('#a2').click(function(){
-			$('html, body').animate({scrollTop : $('#s2').offset().top-Y_OFFSET},600);
+			$('html, body').animate({scrollTop : $('#s2').offset().top-Y_OFFSET+20},600);
 			return false;
 		});
 		
